@@ -1,0 +1,59 @@
+body, html {
+  height: 100vh;
+  text-align: center;
+  font-family: 'Gugi', cursive;
+background-image: -webkit-linear-gradient(top right, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+background-image: -o-linear-gradient(top right, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+background-image: linear-gradient(to bottom left, #69EACB 0%, #EACCF8 48%, #6654F1 100%);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.headerSection {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: teal;
+  background-color: #69EACB;
+  padding: 5px;
+  border-bottom: 5px solid black;
+}
+
+#instructionsBox {
+  width: 60%;
+  position: relative;
+  margin: 0 auto;
+  border: 3px solid teal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px 20px;
+}
+
+.instructions {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#logo {
+  height: 80px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.heading {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.scoreContainer {
+  margin-top: 20px;
+  color: teal;
+  margin-bottom: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.score {
+
+}
