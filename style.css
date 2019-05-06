@@ -54,6 +54,38 @@ background-image: linear-gradient(to bottom left, #69EACB 0%, #EACCF8 48%, #6654
   font-weight: bold;
 }
 
-.score {
-
+#fullSizeMessage {
+  display: none;
 }
+
+
+@media only screen and (max-device-width: 480px) {
+  #tetris {
+    width: 180px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  #logo {
+    height: 40px;
+  }
+
+  .heading {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  #instructionsBox {
+    display: none;
+  }
+
+  #fullSizeMessage {
+    width: 280px;
+    display: block;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    margin: 0 auto;
+  }
